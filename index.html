@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>legagal variable</p>
+    <ul>
+        <li>userName</li>
+        <li>age_2024</li>
+        <li>isValid</li>
+        <li>price$</li>
+        <li>_tempValue</li>
+    </ul><br>
+    <p>Illegale variable</p>
+    <ul>
+        <li>2ndName</li>
+        <li>user-name</li>
+        <li>function</li>
+        <li>class</li>
+        <li>var</li>
+    </ul>
+
+    <h1>“Rules for naming JS variables"</h1>
+
+    <p>
+        Variable names can only contain <script>document.write('$');</script>, <script>document.write('_');</script>, <script>document.write('isValid');</script>, and <script>document.write('age_2024');</script>.
+    </p>
+    
+    <p>For example: $my_1stVariable</p>
+    
+    <p>
+        Variables must begin with a <script>document.write('$');</script>, <script>document.write('_');</script>, or <script>document.write('name');</script>. For example: $name, _name, or name
+    </p>
+    
+    <p>
+        Variable names are case <script>document.write('sensitive');</script>.
+    </p>
+    
+    <p>
+        Variable names should not be JS <script>document.write('keywords');</script>.
+    </p>
+    
+    <script>
+        
+        function displayAdd() {
+            var num1 = 5;
+            var num2 = 5;
+            var sum = num1 + num2;
+            document.write('The sum of ' + num1 + ' and ' + num2 + ' is ' + sum);
+        }
+        displayAdd();
+
+        function displaySub() {
+            var num1 = 10;
+            var num2 = 3;
+            var sub = num1 - num2;
+            document.write('The subtraction of ' + num1 + ' and ' + num2 + ' is ' + sub);
+        }
+        displaySub();
+
+        function displayMul() {
+            var num1 = 5;
+            var num2 = 32;
+            var mul = num1 * num2;
+            document.write('The subtraction of ' + num1 + ' and ' + num2 + ' is ' + mul);
+        }
+        displayMul();
+
+        function displayDiv() {
+            var num1 = 57;
+            var num2 = 3;
+            var div = num1 / num2;
+            document.write('The subtraction of ' + num1 + ' and ' + num2 + ' is ' + div);
+        }
+        displayDiv();
+
+
+
+        
+
+
+    </script>
+
+
+<script>
+    function jsCAl() {
+           
+            var myVariable;
+
+            document.write('Value after variable declaration is: ' + myVariable + '<br>');
+
+        
+            myVariable = 5;
+
+            
+            document.write('Initial value: ' + myVariable + '<br>');
+
+            myVariable++;
+
+            
+            document.write('Value after increment is: ' + myVariable + '<br>');
+
+          
+            myVariable += 7;
+
+            
+            document.write('Value after adding 7 is: ' + myVariable);
+        }
+
+        jsCAl()
+</script>
+
+
+<script>
+     function movieTicket() {
+           
+            var ticketPrice = 600; 
+
+            
+            var numberOfTickets = 5;
+
+            
+            var totalCost = ticketPrice * numberOfTickets;
+
+            
+            document.write('The cost of one movie ticket is: ' + ticketPrice + ' PKR<br>');
+            document.write('Total cost for buying ' + numberOfTickets + ' tickets is: ' + totalCost + ' PKR');
+        }
+
+        movieTicket()
+</script>
+
+
+<script>
+   
+    function mulTable() {
+        
+        var number = 2;
+
+      
+        var table = 'Multiplication Table for ' + number + '<br>';
+        for (var i = 1; i <= 10; i++) {
+            table += number + ' x ' + i + ' = ' + (number * i) + '<br>';
+        }
+
+      
+        document.write(table);
+    }
+    mulTable()
+</script>
+
+    <script>
+       
+        document.write("Yah! I can write HTML content through javascript ")
+
+        var birthYear = "1997";
+        document.write("My birth years is " + birthYear);
+
+
+        var visitorName = "John Doe"; 
+        var productTitle = "T-shirt"; 
+        var quantity = 5; 
+
+        
+        var message = visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store";
+
+        
+        document.write(message);
+
+
+        var visitorName = "John Doe", productTitle = "T-shirt", quantity = 5;
+
+        document.write(visitorName+productTitle+quantity)
+
+
+    
+
+
+    </script>
+</body>
+<script src="script.js"></script>
+
+</html>
